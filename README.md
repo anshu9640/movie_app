@@ -4,37 +4,49 @@ A Flutter-based Movie Browsing App that allows users to explore trending movies,
 The app uses **The Movie Database (TMDB) API** to fetch real-time movie data.
 
 ---
+
 ## 📱 Download APK
 You can download and test the app here:
 
 ➡️ [Download Movie App APK](./apk/movie_app_v1.0.apk)
 
+---
+
 ## 🚀 Features
 
-- Beautiful UI with Movie posters, genres, and ratings
-- Search for movies instantly
-- Mark movies as **Favourite ❤️** or add to **Watchlist ⏰**
-- Browse categorized movies
-- View detailed movie information:
-  - Banner image  
-  - Name  
-  - Description  
-  - Genre  
-  - Release Date  
-  - Circular rating bar  
-  - “Play Now” with an in-app notification  
-- Persistent local lists (each user’s favourites & watchlist saved)
+- Beautiful splash screen → home page navigation  
+- Bottom Navigation Bar with three tabs:
+  - 🎥 **Movies** — Browse, search, and explore all movies
+  - ❤️ **Favourites** — User’s liked movies
+  - ⏰ **Watchlist** — Movies to watch later
+- Integrated **TMDB API** for real-time movie data
+- Movie detail screen with:
+  - Poster
+  - Name
+  - Genre
+  - Description
+  - Release date
+  - Circular user rating indicator
+  - “Play Now” button with in-app notification
+- Search functionality
+- State management using **Provider**
+- Persistent favourites & watchlist (unique for each user)
+- Smooth UI and responsive grid layout
 
 ---
 
 ## 🛠️ Setup Instructions
 
 ### 1️⃣ Prerequisites
-Make sure you have installed:
+Ensure you have the following installed on your system:
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
-- Android Studio / VS Code
+- Android Studio / VS Code with Flutter plugin
 - Git
-- Emulator or connected device
+- An emulator or a physical Android device
 
-git clone https://github.com/<your-username>/<repo-name>.git
+---
+
+### 2️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
 cd movie_app
