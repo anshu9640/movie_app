@@ -1,0 +1,25 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+build/
+
+# iOS
+ios/Pods/
+
+# Android
+android/.gradle/
+android/app/release/
+
+# macOS
+macos/Pods/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+
+# Dependency lock file (optional to ignore)
+pubspec.lock
+
+# Flutter SDK (if it exists inside project)
+flutter/
+bin/
