@@ -1,16 +1,36 @@
-# movie_app
+# 🎬 Movie App
 
-A new Flutter project.
+A Flutter-based Movie Browsing App that allows users to explore trending movies, view details, mark favourites, and manage a personal watchlist.  
+The app uses **The Movie Database (TMDB) API** to fetch real-time movie data.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Beautiful UI with Movie posters, genres, and ratings
+- Search for movies instantly
+- Mark movies as **Favourite ❤️** or add to **Watchlist ⏰**
+- Browse categorized movies
+- View detailed movie information:
+  - Banner image  
+  - Name  
+  - Description  
+  - Genre  
+  - Release Date  
+  - Circular rating bar  
+  - “Play Now” with an in-app notification  
+- Persistent local lists (each user’s favourites & watchlist saved)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Setup Instructions
+
+### 1️⃣ Prerequisites
+Make sure you have installed:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Android Studio / VS Code
+- Git
+- Emulator or connected device
+
+git clone https://github.com/<your-username>/<repo-name>.git
+cd movie_app
