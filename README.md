@@ -4,6 +4,10 @@ A Flutter-based Movie Browsing App that allows users to explore trending movies,
 The app uses **The Movie Database (TMDB) API** to fetch real-time movie data.
 
 ---
+## 📱 Download APK
+You can download and test the app here:
+
+➡️ [Download Movie App APK](./apk/movie_app_v1.0.apk)
 
 ## 🚀 Features
 
